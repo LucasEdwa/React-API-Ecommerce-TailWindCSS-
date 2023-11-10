@@ -6,7 +6,7 @@ function Navbar (){
     const {cart} = useContext(CartContext);
 
     return (
-        <nav className=" flex text-white justify-between p-4 bg-blue-500 sm:flex-row">
+        <nav className=" flex text-white justify-between p-4 bg-blue-500 ">
             <h2 className='text-2xl'>All[tech]</h2>
             <ul className='flex gap-6'>
                 <li>
