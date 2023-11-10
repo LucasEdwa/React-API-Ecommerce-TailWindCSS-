@@ -27,7 +27,7 @@ function Products() {
         <div className="p-6 ">
             <h1 className="text-2xl mb-10">Products</h1>
             {/**grid with 5 columns */}
-<div className="grid grid-cols-1 md:grid-cols-5 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-6">                {/**map the products array */}
+<div className="grid grid-cols-1  md:grid-cols-5 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 gap-6">                {/**map the products array */}
                 {products.map((product, index) => (
                     <Product product={product} key={index} />
                 ))}
